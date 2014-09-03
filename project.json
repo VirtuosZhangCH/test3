@@ -1,0 +1,21 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : true,
+    "frameRate" : 60,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d"],
+
+    "jsList" : [
+        "src/com/virtuos/component/AbstractSlotScene.js",
+        "src/com/virtuos/core/view/AbstractSprite.js",
+        "src/com/virtuos/core/view/AbstractActSprite.js",
+        "src/com/virtuos/core/view/AbstractAnimation.js",
+        "src/resource.js",
+        "src/app.js"
+    ]
+}
