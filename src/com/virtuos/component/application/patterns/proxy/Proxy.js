@@ -8,7 +8,7 @@ var Proxy  = cc.Class.extend({
 
     ctor:function($proxyName,$data)
     {
-        this.proxyName = $proxyName != null ? ($proxyName) : ("Proxy");
+        this.proxyName = $proxyName != null ? ($proxyName) : "Proxy";
         if ($data != null)
         {
             this.setData($data);
@@ -17,7 +17,7 @@ var Proxy  = cc.Class.extend({
 
     getProxyName:function()
     {
-      return this.proxyName;
+        return this.proxyName;
     },
 
     onRegister:function()

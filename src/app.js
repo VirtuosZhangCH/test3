@@ -27,6 +27,16 @@ var HelloWorldLayer = cc.Layer.extend({
             //anchorY: 0.5
         });
 
+        //test apply
+        var func=function($obj,$otj)
+        {
+            cc.log("this is a test"+$obj+$otj);
+        }
+
+        Controller.getInstance("2");
+
+        func.apply(this,["ok","NO"]);
+
         var menu = new cc.Menu(closeItem);
         menu.x = 0;
         menu.y = 0;
